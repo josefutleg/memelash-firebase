@@ -1,0 +1,101 @@
+/*hiding checked image*/
+.hidden{
+	display: none;
+} 
+
+body{
+	text-align: center;
+	margin: auto;
+	background-color: ghostwhite;
+}
+
+/*font*/
+*, #h2P{
+	font-family: 'Reem Kufi', sans-serif;
+	text-transform: lowercase;
+}
+
+/*logo*/
+.logo{
+	margin-top: 10px;
+}
+
+/*hiding checked image*/
+.hidden{
+	display: none;
+}
+
+/*score div position*/
+.scoreDiv{
+	align-items: center;
+	justify-content: center;
+}
+
+/*close button*/
+.close{
+	font-size: 30px;
+}
+
+/*div with all scores */
+.divVotes{
+	width: 370px;
+}
+
+.image img{
+<<<<<<< HEAD
+	/*height: 264px;*/
+	width: 90%;
+	text-align: center;
+=======
+	height: 264px;
+	width: 370px;
+>>>>>>> a4857be65f1e6b822bcc5f3d7fcb8e8000d9e1ab
+}
+
+#displayImage {
+	height: 50%;
+	width: 50%;
+}
+.scoreDiv {
+	width: 370px;
+	height: 75px;
+}
+
+.score {
+	/* text-align: center; 
+	float: left;
+	color: ghostwhite;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px; */
+    padding: 24px;
+}
+#player1, #player2, #player3, #player4 { 
+	height: 100%; 
+	width: 70px;
+}
+
+/* ju-added css to text color for some notifiers */
+#warning {
+	color: red;
+}
+#notifier {
+	color: orangered;
+	text-decoration: underline;
+}
+#submit, #result {
+	color:ghostwhite;
+	background-color: slateblue;
+	border: none;
+	margin-left: 10px;
+	border-radius: 3px;
+	height:36px;
+}
+
+#text{
+	height: 36px;
+}
+
+label{
+	margin-left: 10px;
+}
